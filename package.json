@@ -4,7 +4,9 @@
   "description": "Node.js project for LNURL addresses",
   "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dist": "mkdir -p dist && cp -R node_modules index.js dist"
+
   },
   "dependencies": {
     "express": "^4.17.1",
